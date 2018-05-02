@@ -1,0 +1,140 @@
+html body{ 
+	margin:0;
+	padding:0;
+}
+
+@font-face {
+	font-family:Bebas Neue Regular;
+	src:url(/Users/TedBonnici/Library/Fonts/BebasNeue.otf);
+}
+@font-face {
+	font-family:Futura Extended;
+	src:url(/Users/TedBonnici/Library/Fonts/FuturaExtended.ttf);
+}
+
+@font-face {
+	font-family:Futura Light;
+	src:url(/Users/TedBonnici/Library/Fonts/FuturaLight.ttf);
+}
+
+/*Header section*/
+
+.header {
+	height:auto;
+	background-color:#152230;
+	border-bottom: 3px solid yellow;
+}
+.header .row {
+	display:inline-block;
+}
+
+.header .container .row .col-md-4 h1 a {
+	text-decoration: none;
+	color:white;
+}
+
+.header .container .col-md-4{
+	display:inline-block;
+	color:white;
+	font-family: Bebas Neue Regular;
+	font-size: 35px;
+	margin-left: 100px;
+	margin-top: -10px;
+	margin-bottom:-20px;
+	
+}
+.header .container .col-md-8 {
+	
+	display:inline-block;
+}
+.header ul {
+	display:inline-block;
+	list-style: none;
+	color:white;
+}
+
+.header ul li {
+	display:inline-block;
+}
+.header .col-md-8 ul li a { 
+	font-size:25px;
+	text-align: right;
+	padding-left: 15px;
+	padding-right:15px;
+	text-decoration:none;
+	color:yellow;
+	font-family:Futura Light;
+}
+
+
+.header .col-md-8 ul li a:hover {
+	background-color: yellow;
+	color:black;
+	border-radius: 5px;
+	padding: 10px 15px 10px 15px;
+}
+
+
+
+.header .nav {
+	margin-left: 350px;
+	margin-bottom:-20px;
+	margin-top:-50px;
+}
+
+.header .nav li .active a {
+	background-color: yellow;
+}
+
+.btn-default {
+	background-color: transparent;
+}
+/*Jumbotron section */
+body {
+	background-Image:url("/Users/TedBonnici/Documents/HTML-CSS Portfolio/images/Grizzie.gif");
+	background-size: cover;
+	background-Repeat:no-repeat;
+	background-Attachment:fixed;
+}
+
+.jumbotron {
+	font-weight:bold;
+	font-family:Futura Extended;
+	font-size:85px;
+	color:yellow;
+	text-align:center;
+}
+.jumbotron a {
+	color:yellow;
+	text-decoration:none;
+}
+
+.jumbotron img{
+	height:150px;
+	width:150;
+}
+
+/*Footer section */
+
+.footer {
+	height:80px;
+	background-color:#152230; 
+}
+.footer .row{
+	display:inline-block;
+}
+.footer img {
+	margin-top:24px;
+margin-left: 1000px;
+	height:30px;
+	width:30px;
+}
+.footer p {
+	font-size:18px;
+	margin-left:60px;
+	
+}
+.footer .row .col-md-6 {
+	display:inline-block;
+	color:white;
+}
